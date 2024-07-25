@@ -11,6 +11,10 @@
     src: url("../fonts/apercu/apercu_medium_pro.woff2") format("woff2");
   }
   @font-face {
+    font-family: "apercu-l";
+    src: url("../fonts/apercu/apercu_light_pro.woff2") format("woff2");
+  }
+  @font-face {
     font-family: "Font Awesome";
     src: url("../webfonts/fa-brands-400.woff2") format("woff2"),
       url("../webfonts/fa-light-300.woff2") format("woff2"),
