@@ -2,6 +2,7 @@
 @import url("./_pure-responsive.css");
 @import url("./_fonts.css");
 @import url("./_utilities.css");
+@import url("./animate.min.css");
 .fs-32 {
   font-size: 32px;
 }
@@ -19,6 +20,24 @@
 .top-header-section > div > p > i {
   padding: 0px 6px;
   color: #ffffff;
+}
+.navi-p {
+  position: sticky;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px);
+  top: -1px;
+  /* background-color: aqua; */
+  z-index: 1001;
+  width: 100% !important;
+}
+.navi {
+  /* position: sticky; */
+  /* background: rgba(255, 255, 255, 0.75); */
+  /* backdrop-filter: blur(50px); */
+  /* top: -1px; */
+  /* background-color: aqua; */
+  z-index: 1001;
+  width: 100% !important;
 }
 .navbar {
   display: flex;
@@ -49,21 +68,7 @@
   background-color: #191919;
   color: hsl(0, 0%, 100%);
 }
-.trigger {
-  & + span {
-    visibility: hidden;
-    opacity: 0;
 
-    transition: visibility 0s ease-in 0.33s, opacity 0.33s ease-in-out;
-  }
-
-  &:hover + span {
-    visibility: visible;
-    opacity: 1;
-
-    transition-delay: 0s;
-  }
-}
 .header-sec {
   padding: 20px 0px 0px;
 }
